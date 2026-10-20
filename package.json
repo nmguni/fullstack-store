@@ -1,0 +1,32 @@
+{
+  "name": "fullstack-store",
+  "version": "1.0.0",
+  "description": "ecommers application built with MERN Stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmguni/fullstack-store.git"
+  },
+  "keywords": [],
+  "author": "Ndumiso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nmguni/fullstack-store/issues"
+  },
+  "homepage": "https://github.com/nmguni/fullstack-store#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6",
+    "dotenv": "^18.0.8",
+    "nodemon": "^3.1.14"
+  }
+}
