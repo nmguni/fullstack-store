@@ -1,7 +1,7 @@
-import React from 'react'
 import { Card } from 'react-bootstrap'
 import { Link } from 'react-router'
 import { Ratings } from './Ratings'
+
 
 const Product = ({ product }) => {
    return (
@@ -25,5 +25,6 @@ const Product = ({ product }) => {
       </Card>
    )
 }
+
 
 export default Product

@@ -4,7 +4,13 @@ Frontend
 - React-BootStrap
 - Bootstrap
 - React icons
+- axios
 
 Backend
 
--
+- Express
+
+Database
+
+- MongoDB - mongoose
+- Compass

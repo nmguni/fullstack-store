@@ -1,4 +1,3 @@
-import React from 'react'
 import { useParams } from "react-router"
 import products from '../products'
 import { Link } from 'react-router'
@@ -6,11 +5,12 @@ import { Ratings } from '../components/Ratings'
 import { Row, Col, Image, ListGroup, Card, Button, ListGroupItem } from 'react-bootstrap'
 
 
+
+
 export const ProductScreen = () => {
 
    const { id: productId } = useParams();
    const product = products.find((p) => p._id == productId);
-
 
    return (
       <>
@@ -19,6 +19,9 @@ export const ProductScreen = () => {
             <Col md={5}>
                <Image src={product.image} alt={product.name} fluid />
             </Col>
+
+            <div>
+            </div>
 
             <Col md={4}>
                <ListGroup variant='flush'>
